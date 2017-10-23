@@ -211,6 +211,7 @@ let modalConsistCounter = 0;
 (function slider(){
 
     let icons = $(".menuIcon");
+    let iconsImg = $(".menuIcon img");
 
     let slide = $(".slideView");
     let controlLeft = $(".viewControlLeft");
@@ -219,16 +220,16 @@ let modalConsistCounter = 0;
     let iconsWidth = icons.css("width");
     icons.css("height", iconsWidth);
 
-    icons.click(function(event){
+    iconsImg.click(function(event){
 
         let target = event.currentTarget;
 
         icons.removeClass("activeSlide");
-        target.classList.add("activeSlide");
+        target.parentElement.classList.add("activeSlide");
 
-        let slideContent = window.getComputedStyle(target).backgroundColor;
+        let slideContent = "url(" + target.getAttribute("src") + ")";
 
-        slide.css("background-color", slideContent);
+        slide.css("background-image", slideContent);
     });
 
     controlRight.click(function(){
@@ -242,9 +243,9 @@ let modalConsistCounter = 0;
         icons.removeClass("activeSlide");
         nextIcon.addClass("activeSlide");
 
-        let slideContent = nextIcon.css("background-color");
+        let slideContent = "url(" + nextIcon.children().attr("src") + ")";
 
-        slide.css("background-color", slideContent);
+        slide.css("background-image", slideContent);
         };
     });
 
@@ -259,9 +260,9 @@ let modalConsistCounter = 0;
         icons.removeClass("activeSlide");
         prevIcon.addClass("activeSlide");
 
-        let slideContent = prevIcon.css("background-color");
+        let slideContent = "url(" + prevIcon.children().attr("src") + ")";
 
-        slide.css("background-color", slideContent);
+        slide.css("background-image", slideContent);
         };
     });
 
@@ -290,27 +291,17 @@ let modalConsistCounter = 0;
 
         el.click();
         el.style.backgroundColor="#FD8D00";
-        console.log("a");
 
         btn.click(function(event){
 
             let target = event.currentTarget;
             btn.css("background-color", "#2FC1DF");
             target.style.backgroundColor="#FD8D00";
-            console.log("b");
 
             setTimeout("", 2000);
 
         });
 
     }, 4000);
-
-    //btn.click(function(){
-
-        //clearTimeout(webInterval);
-
-        //setTimeout(webInterval, 1000);
-
-    //});
 
 })();
