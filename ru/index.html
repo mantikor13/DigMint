@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Digital-mind Веб студия</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/style.css">
+
+    <link rel="shortcut icon" href="/img/fav.png">
+</head>
+
+<body>
+
+<section id="modal-form" class="modal-form">
+
+    <div class="container">
+
+        <div class="modal-form__exit">
+            <i class="fa fa-times"></i>
+        </div>
+
+        <div class="col-sm-8">
+            <div class="decision">
+
+                <div class="decision__img"><img src="../img/classroom.png" alt=""></div>
+
+                <div class="decision__line"></div>
+
+                <div class="decision__list">
+                    <p class="decision__item">У вас есть бизнес-задача?</p>
+                    <p class="decision__item">У нас есть решение.</p>
+                    <p class="decision__item">Получите консультацию уже сейчас!</p>
+                </div>
+            </div>
+        </div>
+
+        <div class=" col-xs-12 col-sm-4">
+            <form id="form" class="contact-form">
+                <input id="form__name" class="contact-form__input" type="text" name="name" placeholder="Введите Ваше имя" required/><br/>
+                <input id="form__phone" class="contact-form__input" type="text" name="phone" placeholder="Введите Ваш телефон" required/><br/>
+                <input id="form__email" class="contact-form__input" type="text" name="email" placeholder="Введите Ваш email" required/><br/>
+                <textarea id="form__text" class="contact-form__textarea" name="text" placeholder="Введите Ваше сообщение"></textarea><br/>
+                <button id="form__button" class="btn contact-form__btn">Отправить</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+
+<div class="pushy pushy-left" data-focus="#first-link">
+    <div class="pushy-content">
+        <ul>
+            <li class="pushy-link"><a href="#web">Веб сайты</a></li>
+            <li class="pushy-link"><a href="#marketing">Маркетинг</a></li>
+            <li class="pushy-link"><a href="#media-prod">Медиа разработка</a></li>
+            <li class="pushy-link"><a href="#footer">Контакты</a></li>
+            <li class="pushy-link"><div><a href="/en">EN</a><a href="/ru">RU</a></div></li>
+        </ul>
+    </div>
+</div>
+
+<div class="site-overlay"></div>
+<div class="modal-overlay"></div>
+
+<header style="display: block" id="header">
+    <div class="header">
+        <div class="container">
+
+            <div class="col-xs-12 col-md-1">
+
+                <div class="header__left">
+                    <a href="/ru/"><img class="header__logo" src="../img/logo.png" alt="logo"></a>
+                </div>
+
+                <div class="header__mobile">
+
+                    <ul class="mobile">
+                        <li class="mobile__item"><i class="fa fa-bars menu-btn mobile__burger"></i></li>
+                        <li class="mobile__item">
+                            <button class="header__btn btn show-modal-form" aria-hidden="true">
+                                Задать вопрос &emsp;
+                                <i class="fa fa-angle-up"></i>
+                            </button>
+                        </li>
+                    </ul>
+
+
+                </div>
+            </div>
+
+            <div class="col-md-11">
+
+                <div class="header__right">
+
+                    <nav class="nav">
+                        <ul class="nav__list">
+                            <li class="nav__item"><a class="nav__link" href="#web">Веб сайты</a></li>
+                            <li class="nav__item"><a class="nav__link" href="#marketing">Маркетинг</a></li>
+                            <li class="nav__item"><a class="nav__link" href="#media-prod">Медиа разработка</a></li>
+                            <li class="nav__item"><a class="nav__link" href="#footer">Контакты</a></li>
+                            <li class="nav__item">
+                                <button class="header__btn btn show-modal-form" aria-hidden="true">
+                                    Задать вопрос &emsp;
+                                    <i class="fa fa-angle-up"></i>
+                                </button>
+                            </li>
+                            <li class="nav__item">
+                                <div class="language">
+                                    <a class="language__item language__item_active"
+                                       href="/ru/">RU</a>
+                                    <a class="language__item" href="/en/">EN</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</header>
+
+
+<main>
+    <section class="main" id="main">
+
+            <div class="container">
+
+                <div class="main__head-list">
+                    <h1 class="main__item">web-site</h1>
+                    <h1 class="main__item">marketing</h1>
+                    <h1 class="main__item">media</h1>
+                    <div class="main__phrase">с учетом особенностей вашего сегмента рынка</div>
+                </div>
+            </div>
+
+    </section>
+
+    <section class="web" id="web">
+
+        <div class="container">
+
+            <div class="col-xs-12">
+                <h1 class="web__title">Web sites</h1>
+            </div>
+
+            <div class="col-xs-12 col-sm-5">
+
+                <div class="web__left">
+                    <ul id="main-accordion" class="accordion">
+
+                        <div class="panel-group" id="accordion">
+
+                            <div class="accordion__panel panel panel-default">
+
+                                <a id="main-label-1" class="accordion__label accordion-toggle collapse-active" data-number="1" data-toggle="collapse"
+                                   data-parent="#accordion" href="#main-collapse-1">
+                                    Интернет-магазин
+                                </a>
+
+                                <div id="main-collapse-1" class="panel-collapse collapse in">
+                                    <div class="panel-body accordion__text">
+                                        Удобный, быстрый и привлекательный интернет-магазин, созданный в нашей
+                                        web-студии,
+                                        обеспечит постоянный поток клиентов
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="accordion__panel panel panel-default">
+
+
+                                <a id="main-label-2" class="accordion__label accordion-toggle" data-toggle="collapse" data-number="2"
+                                   data-parent="#accordion" href="#main-collapse-2">
+                                    Корпоративный сайт
+                                </a>
+
+
+                                <div id="main-collapse-2" class="panel-collapse collapse">
+                                    <div class="panel-body accordion__text">
+                                        Достойное лицо вашего бизнеса. Предоставьте вашим клиентам и партнерам всю
+                                        важную
+                                        информацию о своей компании
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="accordion__panel panel panel-default">
+
+                                <a id="main-label-3" class="accordion__label accordion-toggle" data-toggle="collapse" data-number="3"
+                                   data-parent="#accordion" href="#main-collapse-3">
+                                    Лендинг
+                                </a>
+
+                                <div id="main-collapse-3" class="panel-collapse collapse">
+                                    <div class="panel-body accordion__text">
+                                        <b>Лендинг</b> - одна страница вместо тысячи слов. Простой и эффективный старт вашего
+                                        бизнеса в
+                                        интернете
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="accordion__panel panel panel-default">
+
+
+                                <a id="main-label-4" class="accordion__label accordion-toggle" data-toggle="collapse" data-number="4"
+                                   data-parent="#accordion" href="#main-collapse-4">
+                                    Новостной портал
+                                </a>
+
+
+                                <div id="main-collapse-4" class="panel-collapse collapse">
+                                    <div class="panel-body accordion__text">
+                                        Новостной портал с уникальным дизайном и актуальным контентом станет надежным и
+                                        стабильным источником дохода
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="col-sm-offset-1 col-sm-5">
+
+                <div class="web__right">
+                    <div class="web__slider">
+                        <img class="web__monitor" src="../img/monitor.png" alt="">
+
+                        <div class=" web__monitor-screen">
+                            <ul id="monitor-slider" class="pgwSlider">
+                                <li class="li-sl"><img src="../img/1.jpg"></li>
+                                <li class="li-sl"><img src="../img/2.jpg"></li>
+                                <li class="li-sl"><img src="../img/3.jpg"></li>
+                                <li class="li-sl"><img src="../img/4.jpg"></li>
+                            </ul>
+                        </div>
+                        <img class="web__phone" src="../img/iPhone.png" alt="">
+                        <div class="web__phone-screen">
+                            <ul id="phone-slider" class="pgwSlider">
+                                <li class="li-sl"><img src="../img/1.1.jpg"></li>
+                                <li class="li-sl"><img src="../img/2.2.jpg"></li>
+                                <li class="li-sl"><img src="../img/3.3.jpg"></li>
+                                <li class="li-sl"><img src="../img/4.4.jpg"></li>
+                            </ul>
+                        </div>
+                        <img class="web__cup" src="../img/cup.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-xs-12">
+                <button class="btn web__btn show-modal-form">РАССЧИТАТЬ СТОИМОСТЬ</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="marketing" id="marketing">
+
+        <div class="container">
+
+            <div class="col-xs-12 col-sm-6 ">
+                <img class="marketing__img" src="../img/marketing.png" alt="marketing-image">
+            </div>
+
+            <div class="col-xs-12 col-sm-6">
+
+                <div class="marketing__title">marketing</div>
+
+                <p class="marketing__text">
+                    Мы помогаем найти общий язык с клиентами и выстроить эффективные бизнес-процессы.
+                </p>
+
+                <ul class="marketing__list">
+                    <li class="marketing__item"><span class="marketing__num">1</span>Комплексная маркетинговая аналитика
+                        рыночной ситуации
+                    </li>
+                    <li class="marketing__item"><span class="marketing__num">2</span>Разработка наилучшей стратегии
+                        коммуникации с клиентами
+                    </li>
+                    <li class="marketing__item"><span class="marketing__num">3</span>Реализация стратегии в тактических
+                        действеях
+                    </li>
+                    <li class="marketing__line"></li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+            <section id="slider">
+        <div class="sliderTitle">PORTFOLIO</div>
+        <div class="sliderWrap">
+            <div class="view">
+                <div class="slideView">
+                    <div class="viewControl viewControlLeft"></div>
+                    <div class="viewControl viewControlRight"></div>
+                </div>
+            </div>
+            <div class="controlMenuWrap">
+                <div class="menuBtnTop menuBtn">
+                    <img src="" alt="">
+                </div>
+                <div class="controlMenu">
+                    <div class="menuIcon activeSlide"></div>
+                    <div class="menuIcon"></div>
+                    <div class="menuIcon"></div>
+                    <div class="menuIcon"></div>
+                    <div class="menuIcon"></div>
+                    <div class="menuIcon"></div>
+                    <div class="menuIcon"></div>
+                    <div class="menuIcon"></div>
+                    <div class="menuIcon"></div>
+                    <div class="menuIcon"></div>
+                    <div class="menuIcon"></div>
+                    <div class="menuIcon"></div>
+                    <div class="menuIcon"></div>
+                    <div class="menuIcon"></div>
+                    <div class="menuIcon"></div>
+                    <div class="menuIcon"></div>
+                    <div class="menuIcon"></div>
+                    <div class="menuIcon"></div>
+                    <div class="menuIcon"></div>
+                    <div class="menuIcon"></div>
+                    <div class="menuIcon"></div>
+                    <div class="menuIcon"></div>
+                </div>
+                <div class="menuBtnBottom menuBtn">
+                    <img src="" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="media-prod" id="media-prod">
+
+
+        <div id="media-production" class="media-prod__bg">
+            <div class="container">
+                <div class="col-xs-12">
+                    <h1 class="media-prod__title">MEDIA PRODUCTION</h1>
+                </div>
+
+                <div class="col-xs-12">
+                    <div class="media-prod__text">
+                        Творческий подход, оригинальные решения, ориентация на
+                        потребителя.  Мы умеем делать видео, которое приносит прибыль.
+                    </div>
+                </div>
+
+                <div class="col-xs-12">
+                    <div class="row">
+
+                        <div class="cols-xs-12 col-sm-6">
+                            <a href="https://www.youtube.com/watch?v=XhxyrrKSlIw"
+                               class="media-prod__link media-prod__link_right popup-youtube">Рекламная видео
+                                съемка</a>
+                        </div>
+                        <div class="cols-xs-12 col-sm-6">
+                            <a href="https://www.youtube.com/watch?v=Bk3lknaWI9Q"
+                               class="media-prod__link popup-youtube">Рекламная фотосъемка</a>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+                <div class="col-xs-12">
+                    <button class="media-prod__btn show-modal-form">РАССЧИТАТЬ СТОИМОСТЬ</button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+</main>
+
+<footer id="footer" class="footer">
+
+    <div class="container">
+        <div class="col-xs-12">
+            <div class="row">
+                <div class="footer__top">
+
+                    <address class="contacts">
+
+                        <div class="co-xs-12 col-sm-6">
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <div class="contacts__item">
+                                        <h6 class="contacts__title">Свяжитесь с нами </h6>
+                                        <p class="contacts__text">Удобным для вас способом</p>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12">
+                                    <div class="contacts__item">
+                                        <h6 class="contacts__title">Почта</h6>
+                                        <a class="contacts__link" href="mailto:info@digital-mind.pro">info@digital-mind.pro</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="co-xs-12 col-sm-6">
+                            <div class="row">
+
+                                <div class="col-xs-12">
+                                    <div class="contacts__item">
+                                        <h6 class="contacts__title">Телефон</h6>
+                                        <a class="contacts__link" href="tel:+380688927777"><i class="fa fa-phone"
+                                                                                              aria-hidden="true"></i>+380 68 892
+                                            77 77</a><br>
+                                        <a class="contacts__link" href="tel:+380966503948"><i class="fa fa-phone"
+                                                                                              aria-hidden="true"></i>+380 96 650
+                                            39 48</a>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12">
+                                    <div class="contacts__item">
+                                        <h6 class="contacts__title">Адрес</h6>
+                                        <p class="contacts__text">проспект Героев Сталинграда, 45,</p>
+                                        <p class="contacts__text">Харьков, Харьковская область, Украина, 61000</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </address>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <iframe class="footer__map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2567.5599154575443!2d36.27728331506481!3d49.94459843156591!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x41270ae9769ec08b%3A0xba65da0a7857bc58!2z0JLQt9C70LXRgtCw0Y7RidC40Lkg0JTRgNCw0LrQvtC9!5e0!3m2!1sru!2sru!4v1504792378262"
+            frameborder="0" style="border:0" allowfullscreen></iframe>
+
+    <div class="footer__bottom">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-xs-12 col-md-3">
+                    <p class="copyright">© 2017 Digital-Mind</p>
+                </div>
+
+                <div class="col-xs-12 col-md-offset-7 col-md-2">
+                    <div class="social">
+                        <a class="social__item" href="https://www.facebook.com/Digital-Mind-156634378250022/"><i
+                                class="fa fa-facebook"></i></a>
+                        <a class="social__item" href=""><i class="fa fa-google-plus"></i></a>
+                        <a class="social__item" href=""><i class="fa fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</footer>
+
+<script src="/js/jquery-3.1.0.min.js"></script>
+
+<script src="/js/bootstrap.min.js"></script>
+
+<script src="/js/pgwslider.min.js"></script>
+
+<script src="/js/jquery.magnific-popup.min.js"></script>
+
+<script src="/js/pushy.min.js"></script>
+
+<script src="/js/jquery.vide.min.js"></script>
+
+<script src="/js/common.js"></script>
+
+
+
+</body>
+</html>
