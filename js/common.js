@@ -228,7 +228,10 @@ let modalConsistCounter = 0;
         target.parentElement.classList.add("activeSlide");
 
         let slideContent = "url(" + target.getAttribute("src") + ")";
+        slideContent = slideContent.replace("menuIcon", "slideView");
+        let slideLink = target.getAttribute("data-href");
 
+        slide.children("a").attr("href", slideLink);
         slide.css("background-image", slideContent);
     });
 
@@ -244,7 +247,11 @@ let modalConsistCounter = 0;
         nextIcon.addClass("activeSlide");
 
         let slideContent = "url(" + nextIcon.children().attr("src") + ")";
+        slideContent = slideContent.replace("menuIcon", "slideView");
 
+        let slideLink = nextIcon.children().attr("data-href");
+
+        slide.parent().attr("href", slideLink);
         slide.css("background-image", slideContent);
         };
     });
@@ -261,6 +268,11 @@ let modalConsistCounter = 0;
         prevIcon.addClass("activeSlide");
 
         let slideContent = "url(" + prevIcon.children().attr("src") + ")";
+        slideContent = slideContent.replace("menuIcon", "slideView");
+
+        let slideLink = prevIcon.children().attr("data-href");
+
+        slide.parent().attr("href", slideLink);
 
         slide.css("background-image", slideContent);
         };
