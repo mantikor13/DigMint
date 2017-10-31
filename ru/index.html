@@ -16,37 +16,52 @@
 <body>
 
 <section id="modal-form" class="modal-form">
-
-    <div class="container">
-
+    
+    <div class="modal-form__contentWrap">
         <div class="modal-form__exit">
-            <i class="fa fa-times"></i>
+            <img src="../img/close.png" alt="">
         </div>
 
-        <div class="col-sm-8">
-            <div class="decision">
+        <div class="decision">
 
-                <div class="decision__img"><img src="../img/classroom.png" alt=""></div>
+            <div class="decision__img">
+                <img src="../img/classroom.png" alt="">
+            </div>
 
-                <div class="decision__line"></div>
+            <div class="decision__line"></div>
 
-                <div class="decision__list">
-                    <p class="decision__item">У вас есть бизнес-задача?</p>
-                    <p class="decision__item">У нас есть решение.</p>
-                    <p class="decision__item">Получите консультацию уже сейчас!</p>
-                </div>
+
+
+            <div class="decision__list">
+                <p class="decision__item">У вас есть бизнес-задача?</br>
+                У нас есть решение.</br>
+                Получите консультацию уже сейчас!</p>
             </div>
         </div>
 
-        <div class=" col-xs-12 col-sm-4">
-            <form id="form" class="contact-form">
-                <input id="form__name" class="contact-form__input" type="text" name="name" placeholder="Введите Ваше имя" required/><br/>
-                <input id="form__phone" class="contact-form__input" type="text" name="phone" placeholder="Введите Ваш телефон" required/><br/>
-                <input id="form__email" class="contact-form__input" type="text" name="email" placeholder="Введите Ваш email" required/><br/>
-                <textarea id="form__text" class="contact-form__textarea" name="text" placeholder="Введите Ваше сообщение"></textarea><br/>
+        <form id="form" class="contact-form">
+            <div class="form-block">
+                <div class="form-field">
+                    <label for="form__name">Введите Ваше имя</label>
+                    <input id="form__name" class="contact-form__input" type="text" name="name" required/>
+                </div>
+                <div class="form-field">
+                    <label for="form__phone">Введите Ваш телефон</label>
+                    <input id="form__phone" class="contact-form__input" type="text" name="phone" required/>
+                </div>
+                <div class="form-field">
+                    <label for="form__email">Введите Ваш email</label>
+                    <input id="form__email" class="contact-form__input" type="text" name="email" required/>
+                </div>
+            </div>
+            <div class="form-block">
+                <div class="form-field__textarea">
+                    <label for="form__text">Введите Ваше сообщение</label>
+                    <textarea id="form__text" class="contact-form__textarea" name="text"></textarea>
+                </div>
                 <button id="form__button" class="btn contact-form__btn">Отправить</button>
-            </form>
-        </div>
+            </div>
+        </form>
     </div>
 </section>
 
@@ -103,10 +118,12 @@
                             <li class="nav__item"><a class="nav__link" href="#media-prod">Медиа разработка</a></li>
                             <li class="nav__item"><a class="nav__link" href="#footer">Контакты</a></li>
                             <li class="nav__item">
+                                <a class="scrollLink" href="#modal-form">
                                 <button class="header__btn btn show-modal-form" aria-hidden="true">
                                     Задать вопрос &emsp;
                                     <i class="fa fa-angle-up"></i>
                                 </button>
+                                </a>
                             </li>
                             <li class="nav__item">
                                 <div class="language">
@@ -268,79 +285,49 @@
         </div>
     </section>
 
-    <section class="marketing" id="marketing">
-
-        <div class="container">
-
-            <div class="col-xs-12 col-sm-6 ">
-                <img class="marketing__img" src="../img/marketing.png" alt="marketing-image">
-            </div>
-
-            <div class="col-xs-12 col-sm-6">
-
-                <div class="marketing__title">marketing</div>
-
-                <p class="marketing__text">
-                    Мы помогаем найти общий язык с клиентами и выстроить эффективные бизнес-процессы.
-                </p>
-
-                <ul class="marketing__list">
-                    <li class="marketing__item"><span class="marketing__num">1</span>Комплексная маркетинговая аналитика
-                        рыночной ситуации
-                    </li>
-                    <li class="marketing__item"><span class="marketing__num">2</span>Разработка наилучшей стратегии
-                        коммуникации с клиентами
-                    </li>
-                    <li class="marketing__item"><span class="marketing__num">3</span>Реализация стратегии в тактических
-                        действеях
-                    </li>
-                    <li class="marketing__line"></li>
-                </ul>
-            </div>
-
-        </div>
-    </section>
-
-            <section id="slider">
+    <section id="slider">
         <div class="sliderTitle">PORTFOLIO</div>
         <div class="sliderWrap">
+            <div class="slideShadowWrap">
             <div class="view">
                 <div class="slideView">
                     <div class="viewControl viewControlLeft"></div>
+                    <a target="_blank" href="https://www.jacquelineriu.fr/"></a>
                     <div class="viewControl viewControlRight"></div>
                 </div>
             </div>
             <div class="controlMenuWrap">
                 <div class="menuBtnTop menuBtn">
-                    <img src="" alt="">
+                    <img src="../img/sliderTopArrow.png" alt="">
                 </div>
                 <div class="controlMenu">
-                    <div class="menuIcon activeSlide"></div>
-                    <div class="menuIcon"></div>
-                    <div class="menuIcon"></div>
-                    <div class="menuIcon"></div>
-                    <div class="menuIcon"></div>
-                    <div class="menuIcon"></div>
-                    <div class="menuIcon"></div>
-                    <div class="menuIcon"></div>
-                    <div class="menuIcon"></div>
-                    <div class="menuIcon"></div>
-                    <div class="menuIcon"></div>
-                    <div class="menuIcon"></div>
-                    <div class="menuIcon"></div>
-                    <div class="menuIcon"></div>
-                    <div class="menuIcon"></div>
-                    <div class="menuIcon"></div>
-                    <div class="menuIcon"></div>
-                    <div class="menuIcon"></div>
-                    <div class="menuIcon"></div>
-                    <div class="menuIcon"></div>
-                    <div class="menuIcon"></div>
-                    <div class="menuIcon"></div>
+                    <div class="menuIcon activeSlide"><img src="../img/menuIcon/01.jpg" data-href="https://www.jacquelineriu.fr/" alt=""></div>
+                    <div class="menuIcon"><img src="../img/menuIcon/02.jpg" data-href="" alt=""></div>
+                    <div class="menuIcon"><img src="../img/menuIcon/03.jpg" alt=""></div>
+                    <div class="menuIcon"><img src="../img/menuIcon/04.jpg" data-href="https://www.soliver.fr" alt=""></div>
+                    <div class="menuIcon"><img src="../img/menuIcon/05.jpg" data-href="http://de.topshop.com/?geoip=home#" alt=""></div>
+                    <div class="menuIcon"><img src="../img/menuIcon/06.jpg" data-href="https://www.mado-et-les-autres.com/#" alt=""></div>
+                    <div class="menuIcon"><img src="../img/menuIcon/07.jpg" data-href="http://www.inside-urban.com/" alt=""></div>
+                    <div class="menuIcon"><img src="../img/menuIcon/08.jpg" data-href="http://www.lmgerard.com/" alt=""></div>
+                    <div class="menuIcon"><img src="../img/menuIcon/09.jpg" data-href="https://www.garageclothing.com/fr-ca/" alt=""></div>
+                    <div class="menuIcon"><img src="../img/menuIcon/10.jpg" data-href="http://www.laredoute.fr/" alt=""></div>
+                    <div class="menuIcon"><img src="../img/menuIcon/11.jpg" data-href="http://www.stevemadden.com/" alt=""></div>
+                    <div class="menuIcon"><img src="../img/menuIcon/12.jpg" data-href="http://www.formverk.com/" alt=""></div>
+                    <div class="menuIcon"><img src="../img/menuIcon/13.jpg" data-href="https://www.hobbyhall.fi/" alt=""></div>
+                    <div class="menuIcon"><img src="../img/menuIcon/14.jpg" data-href="https://www.stadium.fi/" alt=""></div>
+                    <div class="menuIcon"><img src="../img/menuIcon/15.jpg" data-href="https://www.stalhasten.fi/" alt=""></div>
+                    <div class="menuIcon"><img src="../img/menuIcon/16.jpg" data-href="http://www.kalle-boernetoej.dk/Forside" alt=""></div>
+                    <div class="menuIcon"><img src="../img/menuIcon/17.jpg" data-href="http://be.florisvanbommel.com/nl/home" alt=""></div>
+                    <div class="menuIcon"><img src="../img/menuIcon/18.jpg" data-href="https://www.reedijkwonen.nl/" alt=""></div>
+                    <div class="menuIcon"><img src="../img/menuIcon/19.jpg" data-href="https://www.tastenhoye.eu/nl" alt=""></div>
+                    <div class="menuIcon"><img src="../img/menuIcon/20.jpg" data-href="https://www.menamobel.es/" alt=""></div>
+                    <div class="menuIcon"><img src="../img/menuIcon/21.jpg" data-href="https://www.artehabitat.com/tiendaonline/es/" alt=""></div>
+                    <div class="menuIcon"><img src="../img/menuIcon/22.jpg" data-href="http://muebleslatoskana.com/" alt=""></div>
                 </div>
                 <div class="menuBtnBottom menuBtn">
-                    <img src="" alt="">
+                    <img src="../img/sliderBottomArrow.png" alt="">
                 </div>
+            </div>
             </div>
         </div>
     </section>
