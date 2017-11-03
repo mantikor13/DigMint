@@ -346,3 +346,16 @@ let modalConsistCounter = 0;
     }, 4000);
 
 })();
+
+(function hdrImgSlide(){
+
+    let imgWrap = $(".main__img-slide img");
+
+    imgWrap.each(function(i, elem) {
+
+        $(this).animate({right: "50%"}, 3000)
+
+    });
+
+
+})();
