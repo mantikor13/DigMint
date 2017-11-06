@@ -351,11 +351,25 @@ let modalConsistCounter = 0;
 
     let imgWrap = $(".main__img-slide img");
 
-    imgWrap.each(function(i, elem) {
+    let i = 0;
 
-        $(this).animate({right: "50%"}, 3000)
+    function go() {
 
-    });
+        imgWrap[i].classList.add("inside");
 
+        console.log(i);
+
+    };
+
+    let timer = setInterval(function(){
+
+        go();
+
+        if(i < imgWrap.length){
+            i++;
+        }else{
+            clearInterval(timer);
+        }
+        }, 500);
 
 })();
