@@ -68,31 +68,27 @@ function initMagnific() {
 
 function initSecondMenu() {
 
-    var headerHeight = $('#header').outerHeight()
+    let offset = $('#web').offset().top - $('#web').height();
 
-    var mainHeight = $('#main').outerHeight();
+    let headerHeight = $(".header");
 
-    var showMenu = false
+    let showMenu = false;
 
     $(window).scroll(function () {
 
         if (!showMenu) {
 
-            if ($(this).scrollTop() >= headerHeight + mainHeight) {
-
+            if ($(this).scrollTop() > offset) {
 
                 showMenu = true;
 
-                $('.header').addClass('header_fix').animate({ //выбираем класс menu и метод animate
-                    top: 0
-                }, 300);
+                $('.header').addClass('header_fix');
             }
         } else {
 
-            if ($(this).scrollTop() <= headerHeight + mainHeight) {
+            if ($(this).scrollTop() <= offset) {
 
-
-                showMenu = false
+                showMenu = false;
 
                 $('.header').animate({ //выбираем класс menu и метод animate
                     top: -headerHeight
@@ -357,17 +353,14 @@ let modalConsistCounter = 0;
 
         imgWrap[i].classList.add("inside");
 
-        console.log(i);
-
-    };
+        i++;
+    }
 
     let timer = setInterval(function(){
 
         go();
 
-        if(i < imgWrap.length){
-            i++;
-        }else{
+        if(i >= imgWrap.length){
             clearInterval(timer);
         }
         }, 500);
