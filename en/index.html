@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Digital-mind Web studio</title>
@@ -15,7 +15,7 @@
 
 <body>
 
-<section id="modal-form" class="modal-form">
+<section id="modal-form" class="modal-form" style="display: none">
     
     <div class="modal-form__contentWrap">
         <div class="modal-form__exit">
@@ -65,21 +65,28 @@
     </div>
 </section>
 
-
-<div class="pushy pushy-left" data-focus="#first-link">
-    <div class="pushy-content">
-        <ul>
-            <li class="pushy-link"><a href="#web">Web sites</a></li>
-            <li class="pushy-link"><a href="#marketing">Marketing</a></li>
-            <li class="pushy-link"><a href="#media-prod">Media Production</a></li>
-            <li class="pushy-link"><a href="#footer">Contacts</a></li>
-            <li class="pushy-link"><div><a href="/en">EN</a><a href="/ru">RU</a></div></li>
+<div class="second-menu">
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__item"><a class="nav__link" href="#web">Web sites</a></li>
+            <li class="nav__item"><a class="nav__link" href="#marketing">Marketing</a></li>
+            <li class="nav__item"><a class="nav__link" href="#media-prod">Media production</a></li>
+            <li class="nav__item"><a class="nav__link" href="#slider">Portfolio</a></li>
+            <li class="nav__item"><a class="nav__link" href="#footer">Contacts</a></li>
+            <li class="nav__item">
+                <button class="header__btn btn show-modal-form_second" aria-hidden="true">
+                    Request a quote &emsp;<i class="fa fa-angle-up"></i>
+                </button>
+            </li>
+            <li class="nav__item">
+                <div class="language">
+                    <a class="language__item language__item_active" href="/en/">EN</a>
+                    <a class="language__item" href="/ru/">RU</a>
+                </div>
+            </li>
         </ul>
-    </div>
+    </nav>
 </div>
-
-<div class="site-overlay"></div>
-<div class="modal-overlay"></div>
 
 <header id="header">
     <div class="header">
@@ -116,7 +123,7 @@
                         <li class="nav__item"><a class="nav__link" href="#slider">Portfolio</a></li>
                         <li class="nav__item"><a class="nav__link" href="#footer">Contacts</a></li>
                         <li class="nav__item">
-                            <a class="scrollLink" href="#modal-form"><button class="header__btn btn show-modal-form" aria-hidden="true">
+                            <a class="" href="#modal-form"><button class="header__btn btn show-modal-form" aria-hidden="true">
                                 Request a quote &emsp;
                                 <i class="fa fa-angle-up"></i>
                             </button>
@@ -137,14 +144,10 @@
 
 <main>
 
-
-
     <section class="main" id="main">
 
             <div class="main__head-list">
-                <h1 class="main__item">web-site</h1>
-                <h1 class="main__item">marketing</h1>
-                <h1 class="main__item">media</h1>
+                <h1 class="main__item">web-site<br>marketing<br>media</h1>
                 <div class="main__phrase">We care about your business</div>
             </div>
             <div class="main__img-slide">
@@ -158,277 +161,179 @@
 
     <section class="web" id="web">
 
-        <div class="container">
-
-            <div class="col-xs-12">
-                <h1 class="web__title">Web sites</h1>
+        <div class="web_inner inner">
+            <div class="web__control">
+                <h2 class="web__title">Web sites</h2>
+                <ul class="web__list">
+                    <li class="web__item active-list-item" data-web-item="1">
+                        <h3>Лединг</h3>
+                        <p>Быстрое и простое решение<br> для вашего бизнесса<br>
+                        Быстрое и простое решение<br> для вашего бизнесса<br></p>
+                    </li>
+                    <li class="web__item" data-web-item="2">
+                        <h3>Лединг</h3>
+                        <p>Быстрое и простое решение<br> для вашего бизнесса<br>
+                        Быстрое и простое решение<br> для вашего бизнесса<br></p>
+                    </li>
+                    <li class="web__item" data-web-item="3">
+                        <h3>Лединг</h3>
+                        <p>Быстрое и простое решение<br> для вашего бизнесса<br>
+                        Быстрое и простое решение<br> для вашего бизнесса<br></p>
+                    </li>
+                    <li class="web__item" data-web-item="4">
+                        <h3>Лединг</h3>
+                        <p>Быстрое и простое решение<br> для вашего бизнесса<br>
+                        Быстрое и простое решение<br> для вашего бизнесса<br></p>
+                    </li>
+                </ul>
             </div>
-
-            <div class="col-xs-12 col-sm-5">
-
-                <div class="web__left">
-                    <ul id="main-accordion" class="accordion">
-
-                        <div class="panel-group" id="accordion">
-
-                            <div class="accordion__panel panel panel-default">
-
-                                <span class="accordion__num">
-                                    <span class="point"></span>
-                                </span>
-
-                                <a id="main-label-1" class="accordion__label accordion-toggle collapse-active" data-number="1" data-toggle="collapse"
-                                   data-parent="#accordion" href="#main-collapse-1">
-                                    ONLINE STORE
-                                </a>
-
-                                <div id="main-collapse-1" class="panel-collapse collapse in">
-                                    <div class="panel-body accordion__text">
-                                        A convenient, fast and attractive online store,
-                                        created in our web studio, will provide a
-                                        constant customers flow.
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <div class="accordion__panel panel panel-default">
-
-                                <span class="accordion__num">
-                                    <span class="point"></span>
-                                </span>
-
-                                <a id="main-label-2" class="accordion__label accordion-toggle" data-toggle="collapse" data-number="2"
-                                   data-parent="#accordion" href="#main-collapse-2">
-                                    CORPORATE WEBSITE
-                                </a>
-
-
-                                <div id="main-collapse-2" class="panel-collapse collapse">
-                                    <div class="panel-body accordion__text">
-                                        Worthy representation of your business. Give your
-                                        customers and partners all the important
-                                        information about their company.
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <div class="accordion__panel panel panel-default">
-
-                                <span class="accordion__num">
-                                    <span class="point"></span>
-                                </span>
-
-                                <a id="main-label-3" class="accordion__label accordion-toggle" data-toggle="collapse" data-number="3"
-                                   data-parent="#accordion" href="#main-collapse-3">
-                                    LANDING PAGE
-                                </a>
-
-                                <div id="main-collapse-3" class="panel-collapse collapse">
-                                    <div class="panel-body accordion__text">
-                                        One page instead of a thousand words. Simple and effective start of your business on the Internet!
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <div class="accordion__panel panel panel-default">
-
-                                <span class="accordion__num">
-                                    <span class="point"></span>
-                                </span>
-
-                                <a id="main-label-4" class="accordion__label accordion-toggle" data-toggle="collapse" data-number="4"
-                                   data-parent="#accordion" href="#main-collapse-4">
-                                    NEWS PORTAL
-                                </a>
-
-
-                                <div id="main-collapse-4" class="panel-collapse collapse">
-                                    <div class="panel-body accordion__text">
-                                        With a unique design and relevant content will
-                                        become a reliable and stable source of income.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <li class="accordion__line"></li>
-
-                    </ul>
+            <div class="web__view">
+                <div class="web__content">
+                    <img src="../img/ledingExample.png" alt="" data-web-img="1" class="active-img-web">
+                    <img src="../img/ledingExample.png" alt="" data-web-img="2">
+                    <img src="../img/ledingExample.png" alt="" data-web-img="3">
+                    <img src="../img/ledingExample.png" alt="" data-web-img="4">
                 </div>
-
             </div>
+        </div>
+            
+    </section>
 
-            <div class="col-sm-offset-1 col-sm-5">
-
-                <div class="web__right">
-                    <div class="web__slider">
-                        <img class="web__monitor" src="../img/monitor.png" alt="">
-
-                        <div class=" web__monitor-screen">
-                            <ul id="monitor-slider" class="pgwSlider">
-                                <li class="li-sl"><img src="../img/1.jpg"></li>
-                                <li class="li-sl"><img src="../img/2.jpg"></li>
-                                <li class="li-sl"><img src="../img/3.jpg"></li>
-                                <li class="li-sl"><img src="../img/4.jpg"></li>
-                            </ul>
-                        </div>
-                        <img class="web__phone" src="../img/iPhone.png" alt="">
-                        <div class="web__phone-screen">
-                            <ul id="phone-slider" class="pgwSlider">
-                                <li class="li-sl"><img src="../img/1.1.jpg"></li>
-                                <li class="li-sl"><img src="../img/2.2.jpg"></li>
-                                <li class="li-sl"><img src="../img/3.3.jpg"></li>
-                                <li class="li-sl"><img src="../img/4.4.jpg"></li>
-                            </ul>
-                        </div>
-                        <img class="web__cup" src="../img/cup.png" alt="">
+    <section id="portfolio" class="port">
+        
+        <div class="port_inner inner">
+            <h2 class="port__title">Portfolio</h2>
+            <div class="port__controls">
+                <img src="../img/portLeft.png" alt="" class="port__controls_left">
+                <img src="../img/portRight.png" alt="" class="port__controls_right">
+            </div>
+            <div class="port__sites_wrap">
+                <div class="port__sites_wrap-scroll">
+                    <div class="port__site">
+                        <img src="../img/portfolio/01.jpg" alt="" class="port__img">
+                        <h3 class="port__name">Website1</h3>
+                        <p class="port__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut deserunt, non earum laudantium repellendus labore sint soluta voluptatibus? Natus quod nemo est reiciendis repellendus iure corrupti repudiandae illum earum quaerat!</p>
+                    </div>
+                    <div class="port__site">
+                        <img src="../img/portfolio/02.jpg" alt="" class="port__img">
+                        <h3 class="port__name">Website2</h3>
+                        <p class="port__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore nisi voluptates sit cum beatae nobis, doloribus. Repudiandae sequi amet ipsa officia reprehenderit enim similique dolores officiis at nisi, aut, nemo!</p>
+                    </div>
+                    <div class="port__site">
+                        <img src="../img/portfolio/03.jpg" alt="" class="port__img">
+                        <h3 class="port__name">Website3</h3>
+                        <p class="port__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo soluta ea fuga, ut. Quod amet delectus sequi voluptatibus, explicabo magni, officia blanditiis quidem deleniti nulla magnam officiis facilis laboriosam laudantium!</p>
+                    </div>
+                    <div class="port__site">
+                        <img src="../img/portfolio/04.jpg" alt="" class="port__img">
+                        <h3 class="port__name">Website4</h3>
+                        <p class="port__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum placeat iure architecto, dolorem libero, tempore eos laudantium voluptatibus adipisci, beatae excepturi aspernatur autem eligendi quidem ipsum pariatur saepe aut suscipit.</p>
+                    </div>
+                    <div class="port__site">
+                        <img src="../img/portfolio/05.jpg" alt="" class="port__img">
+                        <h3 class="port__name">Website5</h3>
+                        <p class="port__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat atque perferendis aspernatur, eaque magnam veritatis mollitia modi recusandae alias harum sit illo ea? Rem non ipsam, facilis odit, temporibus libero.</p>
+                    </div>
+                    <div class="port__site">
+                        <img src="../img/portfolio/06.jpg" alt="" class="port__img">
+                        <h3 class="port__name">Website6</h3>
+                        <p class="port__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod modi delectus autem. Voluptatibus rem nisi, quibusdam explicabo enim, autem quam ipsa velit est vero, odio unde facilis quaerat, saepe illum.</p>
                     </div>
                 </div>
-
-            </div>
-
-            <div class="col-xs-12">
-                <button class="btn web__btn show-modal-form">GET ESTIMATE</button>
             </div>
         </div>
+
     </section>
 
-    <section id="slider">
-        <div class="sliderTitle">PORTFOLIO</div>
-        <div class="sliderWrap">
-            <div class="slideShadowWrap">
-            <div class="view">
-                <div class="slideView">
-                    <div class="viewControl viewControlLeft"></div>
-                    <a target="_blank" href="https://www.jacquelineriu.fr/"></a>
-                    <div class="viewControl viewControlRight"></div>
-                </div>
+    <section class="md-pd" id="media-prod">
+        
+        <div class="md-pd_inner inner">
+            <div class="md-pd__content">
+                <h2 class="md-pd__title">Media production</h2>
+                <p class="md-pd__description">Creative approach. Original solutions. Customer<br> orientation. We know how to make a video that<br> makes a profit</p>
+                <img src="../img/md-pd-play.png" alt="" class="md-pd__start">
+                <button class="md-pd__btn">get estimate</button>
             </div>
-            <div class="controlMenuWrap">
-                <div class="menuBtnTop menuBtn">
-                    <img src="../img/sliderTopArrow.png" alt="">
+            <div class="md-pd__slider">
+                <img src="../img/md-pd-left.png" alt="" class="md-pd__control-left md-pd__control">
+                <div class="md-pd__slides-wrap">
+                    <div class="md-pd__slides-wrap-scroll">
+                        <iframe src="" frameborder="0" class="md-pd__video"></iframe>
+                        <iframe src="" frameborder="0" class="md-pd__video"></iframe>
+                        <iframe src="" frameborder="0" class="md-pd__video"></iframe>
+                        <iframe src="" frameborder="0" class="md-pd__video"></iframe>
+                        <iframe src="" frameborder="0" class="md-pd__video"></iframe>
+                        <iframe src="" frameborder="0" class="md-pd__video"></iframe>
+                    </div>
                 </div>
-                <div class="controlMenu">
-                    <div class="menuIcon activeSlide"><img src="../img/menuIcon/01.jpg" data-href="https://www.jacquelineriu.fr/" alt=""></div>
-                    <div class="menuIcon"><img src="../img/menuIcon/02.jpg" data-href="" alt=""></div>
-                    <div class="menuIcon"><img src="../img/menuIcon/03.jpg" alt=""></div>
-                    <div class="menuIcon"><img src="../img/menuIcon/04.jpg" data-href="https://www.soliver.fr" alt=""></div>
-                    <div class="menuIcon"><img src="../img/menuIcon/05.jpg" data-href="http://de.topshop.com/?geoip=home#" alt=""></div>
-                    <div class="menuIcon"><img src="../img/menuIcon/06.jpg" data-href="https://www.mado-et-les-autres.com/#" alt=""></div>
-                    <div class="menuIcon"><img src="../img/menuIcon/07.jpg" data-href="http://www.inside-urban.com/" alt=""></div>
-                    <div class="menuIcon"><img src="../img/menuIcon/08.jpg" data-href="http://www.lmgerard.com/" alt=""></div>
-                    <div class="menuIcon"><img src="../img/menuIcon/09.jpg" data-href="https://www.garageclothing.com/fr-ca/" alt=""></div>
-                    <div class="menuIcon"><img src="../img/menuIcon/10.jpg" data-href="http://www.laredoute.fr/" alt=""></div>
-                    <div class="menuIcon"><img src="../img/menuIcon/11.jpg" data-href="http://www.stevemadden.com/" alt=""></div>
-                    <div class="menuIcon"><img src="../img/menuIcon/12.jpg" data-href="http://www.formverk.com/" alt=""></div>
-                    <div class="menuIcon"><img src="../img/menuIcon/13.jpg" data-href="https://www.hobbyhall.fi/" alt=""></div>
-                    <div class="menuIcon"><img src="../img/menuIcon/14.jpg" data-href="https://www.stadium.fi/" alt=""></div>
-                    <div class="menuIcon"><img src="../img/menuIcon/15.jpg" data-href="https://www.stalhasten.fi/" alt=""></div>
-                    <div class="menuIcon"><img src="../img/menuIcon/16.jpg" data-href="http://www.kalle-boernetoej.dk/Forside" alt=""></div>
-                    <div class="menuIcon"><img src="../img/menuIcon/17.jpg" data-href="http://be.florisvanbommel.com/nl/home" alt=""></div>
-                    <div class="menuIcon"><img src="../img/menuIcon/18.jpg" data-href="https://www.reedijkwonen.nl/" alt=""></div>
-                    <div class="menuIcon"><img src="../img/menuIcon/19.jpg" data-href="https://www.tastenhoye.eu/nl" alt=""></div>
-                    <div class="menuIcon"><img src="../img/menuIcon/20.jpg" data-href="https://www.menamobel.es/" alt=""></div>
-                    <div class="menuIcon"><img src="../img/menuIcon/21.jpg" data-href="https://www.artehabitat.com/tiendaonline/es/" alt=""></div>
-                    <div class="menuIcon"><img src="../img/menuIcon/22.jpg" data-href="http://muebleslatoskana.com/" alt=""></div>
-                </div>
-                <div class="menuBtnBottom menuBtn">
-                    <img src="../img/sliderBottomArrow.png" alt="">
-                </div>
-            </div>
+                <img src="../img/md-pd-right.png" alt="" class="md-pd__control-right md-pd__control">
             </div>
         </div>
+
     </section>
 
-    <section class="media-prod" id="media-prod">
-
-
+    <section class="mark" id="marketing">
+        <h2 class="mark__title">Marketing</h2>
+        <p class="mark__description">We help to find common language with customers<br>
+        and build effective business processes</p>
+        <div class="mark__content">
+            <div class="mark__item">
+                <img src="../img/mark1.png" alt="" class="mark__img">
+                <p class="mark__text">Integrated marketing analytics of the market situation</p>
+            </div>
+            <div class="mark__item">
+                <img src="../img/mark2.png" alt="" class="mark__img">
+                <p class="mark__text">Developing the best strategy for communication with customers</p>
+            </div>
+            <div class="mark__item">
+                <img src="../img/mark3.png" alt="" class="mark__img">
+                <p class="mark__text">Implementation of the strategy in tactical actions</p>
+            </div>
+        </div>
     </section>
 
 </main>
 
 <footer id="footer" class="footer">
 
-    <div class="container">
-        <div class="col-xs-12">
-            <div class="row">
-                <div class="footer__top">
-                    <address  class="contacts">
+    <address class="contacts">
 
-                        <div class="co-xs-12 col-sm-6">
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <div class="contacts__item">
-                                        <h6 class="contacts__title">Contact us</h6>
-                                        <p class="contacts__text">For more information</p>
-                                    </div>
-                                </div>
-                                <div class="col-xs-12">
-                                    <div class="contacts__item">
-                                        <h6 class="contacts__title">Email</h6>
-                                        <a class="contacts__link" href="mailto:info@digital-mind.pro">info@digital-mind.pro</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="co-xs-12 col-sm-6">
-                            <div class="row">
-
-                                <div class="col-xs-12">
-                                    <div class="contacts__item">
-                                        <h6 class="contacts__title">Phone</h6>
-                                        <a class="contacts__link" href="tel:+380688927777"><i class="fa fa-phone"
-                                                                                              aria-hidden="true"></i>+380 68 892
-                                            77 77</a><br>
-                                        <a class="contacts__link" href="tel:+380966503948"><i class="fa fa-phone"
-                                                                                              aria-hidden="true"></i>+380 96 650
-                                            39 48</a>
-                                    </div>
-                                </div>
-                                <div class="col-xs-12">
-                                    <div class="contacts__item">
-                                        <h6 class="contacts__title">Location</h6>
-                                        <p class="contacts__text">PR-T GEROIV STALINGRADU, 45,</p>
-                                        <p class="contacts__text">KHARKIV, 61000, Ukraine</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-
-                    </address>
-                </div>
-
-            </div>
+        <div class="contacts__item">
+            <h6 class="contacts__title">Contact Info</h6>
+            <p class="contacts__text">Fell free to touch us in any time you want.</p>
         </div>
-    </div>
+
+        <div class="contacts__item">
+            <h6 class="contacts__title">Phone</h6>
+            <a class="contacts__link" href="tel:+380688927777">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                +380 68 892 77 77
+            </a>
+            <a class="contacts__link" href="tel:+380966503948">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                +380 96 650 39 48
+            </a>
+        </div>
+
+    </address>
 
     <iframe class="footer__map"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2567.5599154575443!2d36.27728331506481!3d49.94459843156591!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x41270ae9769ec08b%3A0xba65da0a7857bc58!2z0JLQt9C70LXRgtCw0Y7RidC40Lkg0JTRgNCw0LrQvtC9!5e0!3m2!1sru!2sru!4v1504792378262"
-            frameborder="0" style="border:0" allowfullscreen></iframe>
+            frameborder="0" style="border:0" allowfullscreen>    
+    </iframe>
 
-    <div class="footer__bottom">
-        <div class="container">
-            <div class="row">
+    <div class="contacts">
 
-                <div class="col-xs-12 col-md-3">
-                    <p class="copyright">© 2017 Digital-Mind</p>
-                </div>
+        <p class="copyright">© 2017 Digital-Mind</p>
 
-                <div class="col-xs-12 col-md-offset-7 col-md-2">
-                    <div class="social">
-                        <a class="social__item" href="https://www.facebook.com/Digital-Mind-156634378250022/"><i
-                                class="fa fa-facebook"></i></a>
-                        <a class="social__item" href=""><i class="fa fa-google-plus"></i></a>
-                        <a class="social__item" href=""><i class="fa fa-instagram"></i></a>
-                    </div>
-                </div>
-            </div>
-
+        <div class="social">
+            <a class="social__item" href="https://www.facebook.com/Digital-Mind-156634378250022/">
+                <i class="fa fa-facebook"></i>
+            </a>
+            <a class="social__item" href=""><i class="fa fa-google-plus"></i></a>
+            <a class="social__item" href=""><i class="fa fa-instagram"></i></a>
         </div>
+            
     </div>
 
 </footer>
@@ -437,11 +342,7 @@
 
 <script src="/js/bootstrap.min.js"></script>
 
-<script src="/js/pgwslider.min.js"></script>
-
 <script src="/js/jquery.magnific-popup.min.js"></script>
-
-<script src="/js/pushy.min.js"></script>
 
 <script src="/js/jquery.vide.min.js"></script>
 
