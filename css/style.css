@@ -3242,6 +3242,12 @@ h2 {
 }
 
 /*---------------------HEADER---------------------*/
+.for-overflow {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
 #header {
   height: 160px;
 }
@@ -3249,6 +3255,7 @@ h2 {
 .header {
   display: flex;
   justify-content: space-around;
+  position: relative;
   width: 100%;
   padding-top: 5px;
   background-color: #EEF2F5;
@@ -3351,6 +3358,7 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
   position: absolute;
   z-index: 1;
   right: -1000px;
@@ -3367,6 +3375,22 @@ h2 {
 
 .nav_mobile__content .nav__item {
   margin-bottom: 20px;
+}
+
+.nav__content-line {
+  position: relative;
+  left: -100%;
+  width: 300%;
+  height: 1px;
+  border: 0.5px solid black;
+}
+
+.nav__item-btn {
+  margin-top: 60px;
+}
+
+.nav__link-lang {
+  margin-right: 40px;
 }
 
 .language {
@@ -3399,6 +3423,7 @@ h2 {
 
 /*---------------------MAIN---------------------*/
 .main {
+  display: inline-block;
   position: relative;
   max-width: 1200px;
   margin: auto;
