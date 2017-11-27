@@ -67,24 +67,22 @@
 
 <div class="second-menu">
     <nav class="nav">
-        <ul class="nav__list">
-            <li class="nav__item"><a class="nav__link" href="#web">Web sites</a></li>
-            <li class="nav__item"><a class="nav__link" href="#marketing">Marketing</a></li>
-            <li class="nav__item"><a class="nav__link" href="#media-prod">Media production</a></li>
-            <li class="nav__item"><a class="nav__link" href="#slider">Portfolio</a></li>
-            <li class="nav__item"><a class="nav__link" href="#footer">Contacts</a></li>
-            <li class="nav__item">
-                <button class="header__btn btn show-modal-form_second" aria-hidden="true">
-                    Request a quote &emsp;<i class="fa fa-angle-up"></i>
-                </button>
-            </li>
-            <li class="nav__item">
-                <div class="language">
-                    <a class="language__item language__item_active" href="/en/">EN</a>
-                    <a class="language__item" href="/ru/">RU</a>
-                </div>
-            </li>
-        </ul>
+        <li class="nav__item-fix"><a class="nav__link" href="#web">Web sites</a></li>
+        <li class="nav__item-fix"><a class="nav__link" href="#portfolio">Portfolio</a></li>
+        <li class="nav__item-fix"><a class="nav__link" href="#media-prod">Media production</a></li>
+        <li class="nav__item-fix"><a class="nav__link" href="#marketing">Marketing</a></li>
+        <li class="nav__item-fix"><a class="nav__link" href="#footer">Contacts</a></li>
+        <li class="nav__item-fix">
+            <button class="header__btn btn show-modal-form_second" aria-hidden="true">
+                Request a quote &emsp;<i class="fa fa-angle-up"></i>
+            </button>
+        </li>
+        <li class="nav__item-fix">
+            <div class="language">
+                <a class="language__item language__item_active" href="/en/">EN</a>
+                <a class="language__item" href="/ru/">RU</a>
+            </div>
+        </li>
     </nav>
 </div>
 
@@ -96,31 +94,42 @@
                     <a href="/en/"><img  class="header__logo" src="../img/logo.png" alt="logo"></a>
                 </div>
 
-                <div class="header__mobile">
-
-                    <ul class="mobile">
-                        <li class="mobile__item"><i class="fa fa-bars menu-btn mobile__burger"></i></li>
-                        <li class="mobile__item">
-                            <button class="header__btn btn show-modal-form" aria-hidden="true">
-                                Request a quote &emsp;
-                                <i class="fa fa-angle-up"></i>
-                            </button>
-                        </li>
-                    </ul>
-
-
-                </div>
             </div>
 
 
-            <div class="header__nav_wrap">
-
-                <nav class="nav">
-                    <ul class="nav__list">
+            <nav class="nav">
+                <li class="nav__item"><a class="nav__link" href="#web">Web sites</a></li>
+                <li class="nav__item"><a class="nav__link" href="#portfolio">Portfolio</a></li>
+                <li class="nav__item"><a class="nav__link" href="#media-prod">Media production</a></li>
+                <li class="nav__item"><a class="nav__link" href="#marketing">Marketing</a></li>
+                <li class="nav__item"><a class="nav__link" href="#footer">Contacts</a></li>
+                <li class="nav__item">
+                    <a class="" href="#modal-form"><button class="header__btn btn show-modal-form" aria-hidden="true">
+                        Request a quote &emsp;
+                        <i class="fa fa-angle-up"></i>
+                    </button>
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <div class="language">
+                        <a class="language__item language__item_active"
+                           href="/en/">EN</a>
+                        <a class="language__item" href="/ru/">RU</a>
+                    </div>
+                </li>
+            </nav>
+            <div class="nav_mobile">
+                <div class="nav-btn">
+                    <span class="nav-line"></span>
+                    <span class="nav-line"></span>
+                    <span class="nav-line"></span>
+                </div>
+                <div class="nav_mobile-wrap">
+                    <nav class="nav_mobile__content">
                         <li class="nav__item"><a class="nav__link" href="#web">Web sites</a></li>
-                        <li class="nav__item"><a class="nav__link" href="#marketing">Marketing</a></li>
+                        <li class="nav__item"><a class="nav__link" href="#portfolio">Portfolio</a></li>
                         <li class="nav__item"><a class="nav__link" href="#media-prod">Media production</a></li>
-                        <li class="nav__item"><a class="nav__link" href="#slider">Portfolio</a></li>
+                        <li class="nav__item"><a class="nav__link" href="#marketing">Marketing</a></li>
                         <li class="nav__item"><a class="nav__link" href="#footer">Contacts</a></li>
                         <li class="nav__item">
                             <a class="" href="#modal-form"><button class="header__btn btn show-modal-form" aria-hidden="true">
@@ -128,16 +137,14 @@
                                 <i class="fa fa-angle-up"></i>
                             </button>
                             </a>
-                        </li>
-                        <li class="nav__item">
                             <div class="language">
                                 <a class="language__item language__item_active"
                                    href="/en/">EN</a>
                                 <a class="language__item" href="/ru/">RU</a>
                             </div>
                         </li>
-                    </ul>
-                </nav>
+                    </nav>
+                </div>
             </div>
 </header>
 
@@ -166,31 +173,32 @@
                 <h2 class="web__title">Web sites</h2>
                 <ul class="web__list">
                     <li class="web__item active-list-item" data-web-item="1">
-                        <h3>Лединг</h3>
-                        <p>Быстрое и простое решение<br> для вашего бизнесса<br>
-                        Быстрое и простое решение<br> для вашего бизнесса<br></p>
+                        <h3>ONLINE STORE</h3>
+                        <p>A convenient, fast and attractive online store,
+                            created in our web studio, will provide a
+                            constant customers flow.</p>
                     </li>
                     <li class="web__item" data-web-item="2">
-                        <h3>Лединг</h3>
-                        <p>Быстрое и простое решение<br> для вашего бизнесса<br>
-                        Быстрое и простое решение<br> для вашего бизнесса<br></p>
+                        <h3>CORPORATE WEBSITE</h3>
+                        <p>Worthy representation of your business. Give your
+                            customers and partners all the important
+                            information about their company.</p>
                     </li>
                     <li class="web__item" data-web-item="3">
-                        <h3>Лединг</h3>
-                        <p>Быстрое и простое решение<br> для вашего бизнесса<br>
-                        Быстрое и простое решение<br> для вашего бизнесса<br></p>
+                        <h3>LANDING PAGE</h3>
+                        <p>One page instead of a thousand words. Simple and effective start of your business on the Internet!</p>
                     </li>
                     <li class="web__item" data-web-item="4">
-                        <h3>Лединг</h3>
-                        <p>Быстрое и простое решение<br> для вашего бизнесса<br>
-                        Быстрое и простое решение<br> для вашего бизнесса<br></p>
+                        <h3>NEWS PORTAL</h3>
+                        <p>With a unique design and relevant content will
+                            become a reliable and stable source of income.</p>
                     </li>
                 </ul>
             </div>
             <div class="web__view">
                 <div class="web__content">
                     <img src="../img/ledingExample.png" alt="" data-web-img="1" class="active-img-web">
-                    <img src="../img/ledingExample.png" alt="" data-web-img="2">
+                    <img src="../img/portfolio/04.jpg" alt="" data-web-img="2">
                     <img src="../img/ledingExample.png" alt="" data-web-img="3">
                     <img src="../img/ledingExample.png" alt="" data-web-img="4">
                 </div>
@@ -212,32 +220,90 @@
                     <div class="port__site">
                         <img src="../img/portfolio/01.jpg" alt="" class="port__img">
                         <h3 class="port__name">Website1</h3>
-                        <p class="port__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut deserunt, non earum laudantium repellendus labore sint soluta voluptatibus? Natus quod nemo est reiciendis repellendus iure corrupti repudiandae illum earum quaerat!</p>
                     </div>
                     <div class="port__site">
                         <img src="../img/portfolio/02.jpg" alt="" class="port__img">
                         <h3 class="port__name">Website2</h3>
-                        <p class="port__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore nisi voluptates sit cum beatae nobis, doloribus. Repudiandae sequi amet ipsa officia reprehenderit enim similique dolores officiis at nisi, aut, nemo!</p>
                     </div>
                     <div class="port__site">
                         <img src="../img/portfolio/03.jpg" alt="" class="port__img">
                         <h3 class="port__name">Website3</h3>
-                        <p class="port__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo soluta ea fuga, ut. Quod amet delectus sequi voluptatibus, explicabo magni, officia blanditiis quidem deleniti nulla magnam officiis facilis laboriosam laudantium!</p>
                     </div>
                     <div class="port__site">
                         <img src="../img/portfolio/04.jpg" alt="" class="port__img">
                         <h3 class="port__name">Website4</h3>
-                        <p class="port__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum placeat iure architecto, dolorem libero, tempore eos laudantium voluptatibus adipisci, beatae excepturi aspernatur autem eligendi quidem ipsum pariatur saepe aut suscipit.</p>
                     </div>
                     <div class="port__site">
                         <img src="../img/portfolio/05.jpg" alt="" class="port__img">
                         <h3 class="port__name">Website5</h3>
-                        <p class="port__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat atque perferendis aspernatur, eaque magnam veritatis mollitia modi recusandae alias harum sit illo ea? Rem non ipsam, facilis odit, temporibus libero.</p>
                     </div>
                     <div class="port__site">
                         <img src="../img/portfolio/06.jpg" alt="" class="port__img">
                         <h3 class="port__name">Website6</h3>
-                        <p class="port__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod modi delectus autem. Voluptatibus rem nisi, quibusdam explicabo enim, autem quam ipsa velit est vero, odio unde facilis quaerat, saepe illum.</p>
+                    </div>
+                    <div class="port__site">
+                        <img src="../img/portfolio/07.jpg" alt="" class="port__img">
+                        <h3 class="port__name">Website6</h3>
+                    </div>
+                    <div class="port__site">
+                        <img src="../img/portfolio/08.jpg" alt="" class="port__img">
+                        <h3 class="port__name">Website6</h3>
+                    </div>
+                    <div class="port__site">
+                        <img src="../img/portfolio/09.jpg" alt="" class="port__img">
+                        <h3 class="port__name">Website6</h3>
+                    </div>
+                    <div class="port__site">
+                        <img src="../img/portfolio/10.jpg" alt="" class="port__img">
+                        <h3 class="port__name">Website6</h3>
+                    </div>
+                    <div class="port__site">
+                        <img src="../img/portfolio/11.jpg" alt="" class="port__img">
+                        <h3 class="port__name">Website6</h3>
+                    </div>
+                    <div class="port__site">
+                        <img src="../img/portfolio/12.jpg" alt="" class="port__img">
+                        <h3 class="port__name">Website6</h3>
+                    </div>
+                    <div class="port__site">
+                        <img src="../img/portfolio/13.jpg" alt="" class="port__img">
+                        <h3 class="port__name">Website6</h3>
+                    </div>
+                    <div class="port__site">
+                        <img src="../img/portfolio/14.jpg" alt="" class="port__img">
+                        <h3 class="port__name">Website6</h3>
+                    </div>
+                    <div class="port__site">
+                        <img src="../img/portfolio/15.jpg" alt="" class="port__img">
+                        <h3 class="port__name">Website6</h3>
+                    </div>
+                    <div class="port__site">
+                        <img src="../img/portfolio/16.jpg" alt="" class="port__img">
+                        <h3 class="port__name">Website6</h3>
+                    </div>
+                    <div class="port__site">
+                        <img src="../img/portfolio/17.jpg" alt="" class="port__img">
+                        <h3 class="port__name">Website6</h3>
+                    </div>
+                    <div class="port__site">
+                        <img src="../img/portfolio/18.jpg" alt="" class="port__img">
+                        <h3 class="port__name">Website6</h3>
+                    </div>
+                    <div class="port__site">
+                        <img src="../img/portfolio/19.jpg" alt="" class="port__img">
+                        <h3 class="port__name">Website6</h3>
+                    </div>
+                    <div class="port__site">
+                        <img src="../img/portfolio/20.jpg" alt="" class="port__img">
+                        <h3 class="port__name">Website6</h3>
+                    </div>
+                    <div class="port__site">
+                        <img src="../img/portfolio/21.jpg" alt="" class="port__img">
+                        <h3 class="port__name">Website6</h3>
+                    </div>
+                    <div class="port__site">
+                        <img src="../img/portfolio/22.jpg" alt="" class="port__img">
+                        <h3 class="port__name">Website6</h3>
                     </div>
                 </div>
             </div>
@@ -258,12 +324,14 @@
                 <img src="../img/md-pd-left.png" alt="" class="md-pd__control-left md-pd__control">
                 <div class="md-pd__slides-wrap">
                     <div class="md-pd__slides-wrap-scroll">
-                        <iframe src="" frameborder="0" class="md-pd__video"></iframe>
-                        <iframe src="" frameborder="0" class="md-pd__video"></iframe>
-                        <iframe src="" frameborder="0" class="md-pd__video"></iframe>
-                        <iframe src="" frameborder="0" class="md-pd__video"></iframe>
-                        <iframe src="" frameborder="0" class="md-pd__video"></iframe>
-                        <iframe src="" frameborder="0" class="md-pd__video"></iframe>
+                        <a class="popup-youtube md-pd__video" href="https://www.youtube.com/watch?v=sfn0qQEsucg"></a>
+                        <a class="popup-youtube md-pd__video" href="https://www.youtube.com/watch?v=RcbiUTdE7JA"></a>
+                        <a class="popup-youtube md-pd__video" href="https://www.youtube.com/watch?v=NDqZ8iUXRYE"></a>
+                        <a class="popup-youtube md-pd__video" href="https://www.youtube.com/watch?v=TIl3hHAh-1w"></a>
+                        <a class="popup-youtube md-pd__video" href="https://www.youtube.com/watch?v=eob7uXtdMro"></a>
+                        <a class="popup-youtube md-pd__video" href="https://www.youtube.com/watch?v=5Cs318zxTIo"></a>
+                        <a class="popup-youtube md-pd__video" href="https://www.youtube.com/watch?v=UI45Xbvjskg"></a>
+                        <a class="popup-youtube md-pd__video" href="https://www.youtube.com/watch?v=AyxdO2xk_Bg"></a>
                     </div>
                 </div>
                 <img src="../img/md-pd-right.png" alt="" class="md-pd__control-right md-pd__control">
