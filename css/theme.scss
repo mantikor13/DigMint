@@ -626,7 +626,7 @@ section{
   }
 
   &__title{
-    margin: 100px 0 50px;
+    margin: 30px 0 30px;
 
     text-align: center;
   }
@@ -691,7 +691,7 @@ section{
   }
 
   &__title{
-    margin: 100px 0 40px;
+    margin: 50px 0 40px;
 
     color: white;
   }
@@ -734,6 +734,7 @@ section{
   }
 
   &__slides-wrap{
+    width: 100%;
     margin: 40px 0;
 
     overflow: hidden;
@@ -741,18 +742,28 @@ section{
 
   &__slides-wrap-scroll{
     display: flex;
+
     position: relative;
     left: 0;
 
     transition: all 0.7s ease-out;
   }
 
+  &__control-left{
+    margin-right: 20px;
+  }
+
+  &__control-right{
+    margin-left: 5px;
+  }
+
+
   &__control:hover{
     cursor: pointer;
   }
 
   &__video{
-    min-width: 260px;
+    display: block;
     height: 150px;
 
     border: 1px solid red;
@@ -881,6 +892,30 @@ section{
 
 @media (max-width: 992px) {
 
+  h1 br{
+    display: block;
+  }
+
+  h2{
+    font-size: 32px;
+  }
+
+  br{
+    display: none;
+  }
+
+  .modal-form__contentWrap{
+    width: 80%;
+  }
+
+  .form-block{
+    flex-direction: column;
+  }
+
+  .contact-form__btn{
+    width: 100%;
+  }
+
   .second-menu{
     display: none;
   }
@@ -909,10 +944,42 @@ section{
   .main__head-list{
     position: static;
     text-align: center;
+
+    margin-bottom: 40px;
+  }
+
+  .main__item{
+    font-size: 40px;
   }
 
   .main__phrase{
     max-width: 100%;
+    font-size: 18px;
+  }
+
+  .mark__content{
+    width: 75%;
+  }
+
+  .port__controls{
+    width: 35%;
+    align-self: center;
+  }
+
+  .port__controls img{
+    width: 50px;
+  }
+
+  .md-pd__description{
+    font-size: 20px;
+  }
+
+  .mark__description{
+    font-size: 18px;
+  }
+
+  .contacts{
+    display: block;
   }
 
 }

@@ -2,6 +2,7 @@ $(document).ready(function () {
 
     initShowModalForm();
     modalForm();
+    mobileMenu();
     initSecondMenu();
     initSmoothTransition();
     hdrImgSlide();
@@ -28,27 +29,6 @@ $(document).ready(function () {
     });
 
     $(".web__item:first").children("p").show();
-
-    let i = 0;
-
-    let mobileHeight = $("#header").height() + $("#main").height();
-
-    $(".nav_mobile-wrap").height(mobileHeight);
-
-    $(".nav-btn").click(function(){
-
-        if(i == 0){
-            $(".nav-btn").addClass("nav-btn-active");
-            $(".nav_mobile-wrap").addClass("nav_mobile-active");
-            i = 1;
-        }else{
-            $(".nav-btn").removeClass("nav-btn-active");
-            $(".nav_mobile-wrap").removeClass("nav_mobile-active");
-            i = 0;
-        }
-
-    });
-
 });
 
 let modalConsistCounter = 0;
@@ -106,8 +86,6 @@ function initSecondMenu() {
     let offset = $('#web').offset().top + 50;
     let headerHeight = $(".second-menu").height();
 
-    console.log(offset);
-
     $(window).scroll(function () {
 
 
@@ -123,6 +101,32 @@ function initSecondMenu() {
     });
 };
 
+function mobileMenu() {
+    let i = 0;
+
+    let mobileHeight = $("#header").height() + $("#main").height();
+
+    $(".nav_mobile-wrap").height(mobileHeight);
+
+    $(window).resize(function(){
+        mobileHeight = $("#header").height() + $("#main").height();
+        $(".nav_mobile-wrap").height(mobileHeight);
+    });
+
+    $(".nav-btn").click(function(){
+
+        if(i == 0){
+            $(".nav-btn").addClass("nav-btn-active");
+            $(".nav_mobile-wrap").addClass("nav_mobile-active");
+            i = 1;
+        }else{
+            $(".nav-btn").removeClass("nav-btn-active");
+            $(".nav_mobile-wrap").removeClass("nav_mobile-active");
+            i = 0;
+        }
+
+    });
+};
 
 function initSmoothTransition() {
 
@@ -185,7 +189,7 @@ function portfolio(){
     let minWidth = ($(".port__sites_wrap").width() - margin*3)/3;// Ширина слайдов без margin, именно минимальная из-за flexbox
 
     if($(window).width() < 993){
-        minWidth = ($(".port__sites_wrap").width() - margin*2)/2; 
+        minWidth = $(".port__sites_wrap").width() - margin; 
     }
     $(".port__site").css("min-width", minWidth); 
     
@@ -194,10 +198,10 @@ function portfolio(){
 
     $(window).resize(function(){
 
-        let minWidth = ($(".port__sites_wrap").width() - 60)/3;
+        let minWidth = ($(".port__sites_wrap").width() - margin*3)/3;
 
         if($(window).width() < 993){
-            minWidth = ($(".port__sites_wrap").width() - 40)/2; 
+            minWidth = $(".port__sites_wrap").width() - margin; 
         }
         $(".port__site").css("min-width", minWidth); 
 
@@ -232,22 +236,33 @@ function portfolio(){
 
 function mediaProduction(){
 
-    let slideOuterWidth = $(".md-pd__video").outerWidth(true);
-    $(".md-pd__slides-wrap").width(slideOuterWidth * 4); 
+    let margin = parseInt($(".md-pd__video").css("margin-right"));
+
+    console.log(margin);
+
+    let minWidth = ($(".md-pd__slides-wrap").width() - margin*8)/4;// Ширина слайдов без margin, именно минимальная из-за flexbox
+
+    $(".md-pd__video").css("min-width", minWidth); 
+
+    if($(window).width() < 993){
+        minWidth = ($(".md-pd__slides-wrap").width() - margin*4)/2; 
+        $(".md-pd__video").css("min-width", minWidth); 
+    }
+    
+    let scrollWidth = -($(".md-pd__video").outerWidth(true));
 
     let left; // Смещение за все нажатия присваивается сюда
     let i = 0; // Счетчик нажатий на кнопки
 
     let rightBorder = $(".md-pd__slides-wrap-scroll").width();
-    slideOuterWidth = slideOuterWidth * -1;   
 
     let sitesArray = $(".md-pd__video").length; // кол-во слайдов
-    let containSlides = rightBorder/Math.abs(slideOuterWidth); // кол-во видимых слайдов
+    let containSlides = rightBorder/minWidth; // кол-во видимых слайдов
 
     $(".md-pd__control-right").click(function(){
         if(i + containSlides < sitesArray){
             i++;
-            left = i * slideOuterWidth;
+            left = i * scrollWidth;
             $(".md-pd__slides-wrap-scroll").css("left", left);
         }
     });
@@ -255,7 +270,7 @@ function mediaProduction(){
     $(".md-pd__control-left").click(function(){
         if(i > 0){
             i--;
-            left = i * slideOuterWidth;
+            left = i * scrollWidth;
             $(".md-pd__slides-wrap-scroll").css("left", left);
         }
     });

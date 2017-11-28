@@ -3606,7 +3606,7 @@ section {
 }
 
 .port__title {
-  margin: 100px 0 50px;
+  margin: 30px 0 30px;
   text-align: center;
 }
 
@@ -3665,7 +3665,7 @@ section {
 }
 
 .md-pd__title {
-  margin: 100px 0 40px;
+  margin: 50px 0 40px;
   color: white;
 }
 
@@ -3702,6 +3702,7 @@ section {
 }
 
 .md-pd__slides-wrap {
+  width: 100%;
   margin: 40px 0;
   overflow: hidden;
 }
@@ -3713,12 +3714,20 @@ section {
   transition: all 0.7s ease-out;
 }
 
+.md-pd__control-left {
+  margin-right: 20px;
+}
+
+.md-pd__control-right {
+  margin-left: 5px;
+}
+
 .md-pd__control:hover {
   cursor: pointer;
 }
 
 .md-pd__video {
-  min-width: 260px;
+  display: block;
   height: 150px;
   border: 1px solid red;
   margin-right: 15px;
@@ -3835,6 +3844,24 @@ section {
 }
 
 @media (max-width: 992px) {
+  h1 br {
+    display: block;
+  }
+  h2 {
+    font-size: 32px;
+  }
+  br {
+    display: none;
+  }
+  .modal-form__contentWrap {
+    width: 80%;
+  }
+  .form-block {
+    flex-direction: column;
+  }
+  .contact-form__btn {
+    width: 100%;
+  }
   .second-menu {
     display: none;
   }
@@ -3857,9 +3884,33 @@ section {
   .main__head-list {
     position: static;
     text-align: center;
+    margin-bottom: 40px;
+  }
+  .main__item {
+    font-size: 40px;
   }
   .main__phrase {
     max-width: 100%;
+    font-size: 18px;
+  }
+  .mark__content {
+    width: 75%;
+  }
+  .port__controls {
+    width: 35%;
+    align-self: center;
+  }
+  .port__controls img {
+    width: 50px;
+  }
+  .md-pd__description {
+    font-size: 20px;
+  }
+  .mark__description {
+    font-size: 18px;
+  }
+  .contacts {
+    display: block;
   }
 }
 
