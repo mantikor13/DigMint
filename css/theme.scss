@@ -957,10 +957,6 @@ section{
     font-size: 18px;
   }
 
-  .mark__content{
-    width: 75%;
-  }
-
   .port__controls{
     width: 35%;
     align-self: center;
@@ -974,6 +970,11 @@ section{
     font-size: 20px;
   }
 
+  .mark__content{
+    //flex-direction: column;
+    width: 75%;
+  }
+
   .mark__description{
     font-size: 18px;
   }
@@ -984,7 +985,35 @@ section{
 
 }
 
+
+@media (max-width: 800px) {
+
+  .mark__content{
+    width: 90%;
+  }
+
+  .mark__item{
+    width: 150px;
+  }
+
+}
+
 @media (max-width: 576px) {
+
+  .mark__content{
+    flex-direction: column;
+    align-items: center;
+
+    margin: 30px 0;
+  }
+
+  .mark__item{
+    width: 40%;
+  }
+
+  .mark__text{
+    text-align: center;
+  }
 
   .contacts {
 

@@ -248,7 +248,25 @@ function mediaProduction(){
         minWidth = ($(".md-pd__slides-wrap").width() - margin*4)/2; 
         $(".md-pd__video").css("min-width", minWidth); 
     }
-    
+    if($(window).width() < 550){
+        minWidth = $(".md-pd__slides-wrap").width() - margin; 
+        $(".md-pd__video").css("min-width", minWidth); 
+    }
+
+    $(window).resize(function(){
+
+        let minWidth = ($(".md-pd__slides-wrap").width() - margin*8)/4;
+
+        if($(window).width() < 993){
+            minWidth = ($(".md-pd__slides-wrap").width() - margin*4)/2; 
+        }
+        $(".md-pd__video").css("min-width", minWidth); 
+        if($(window).width() < 550){
+        minWidth = $(".md-pd__slides-wrap").width() - margin; 
+        $(".md-pd__video").css("min-width", minWidth); 
+        }
+    });
+
     let scrollWidth = -($(".md-pd__video").outerWidth(true));
 
     let left; // Смещение за все нажатия присваивается сюда
