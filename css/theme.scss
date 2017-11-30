@@ -702,13 +702,11 @@ section{
     text-align: center;
   }
 
-  &__start{
-    margin: 30px 0;
-  }
-
   &__btn{
     width: 290px;
     height: 60px;
+
+    margin-top: 214px;
 
     font-size: 22px;
     font-weight: bold;
@@ -766,11 +764,25 @@ section{
     display: block;
     height: 150px;
 
-    border: 1px solid red;
+    position: relative;
+
     margin-right: 15px;
 
     &:focus{
       outline: none;
+    }
+
+    .md-pd__video-bgi{
+      width: 100%;
+    }
+
+    .md-pd__video-play{
+      position: absolute;
+      z-index: 2;
+      top: 33%;
+      left: 33%;
+      height: 33%;
+      width: 33%;
     }
   }
 }
