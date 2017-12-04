@@ -47,19 +47,17 @@ function initShowModalForm() {
 
     });
 
-    $('.modal-form__exit').click(function () {
+    $('.modal-form__exit, .md-pd__btn').click(function () {
 
         $('#modal-form').slideUp("slow");
         modalConsistCounter = 0;
 
     });
 
-    $('.show-modal-form_second').click(function () {
+    $('.show-modal-form_second, .md-pd__btn').click(function () {
 
         $('#modal-form').slideDown("slow");
         modalConsistCounter = 1;
-
-        $('body, html').animate({scrollTop: 0}, 1500);
 
     });
 };
@@ -237,8 +235,6 @@ function portfolio(){
 function mediaProduction(){
 
     let margin = parseInt($(".md-pd__video").css("margin-right"));
-
-    console.log(margin);
 
     let minWidth = ($(".md-pd__slides-wrap").width() - margin*8)/4;// Ширина слайдов без margin, именно минимальная из-за flexbox
 

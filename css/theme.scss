@@ -23,6 +23,8 @@ h2{
 
 /*---------------------MODAL---------------------*/
 .modal-form {
+
+  position: fixed;
   
   display: flex;
   justify-content: center;
@@ -658,13 +660,7 @@ section{
 
   &__img{
     width: 100%;
-  }
-
-  &__name{
     margin-bottom: 50px;
-
-    text-transform: uppercase;
-    font-weight: bold;
   }
 }
 
@@ -706,7 +702,7 @@ section{
     width: 290px;
     height: 60px;
 
-    margin-top: 214px;
+    margin-top: 216px;
 
     font-size: 22px;
     font-weight: bold;
@@ -729,6 +725,14 @@ section{
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    transition: all 1s ease-out;
+  }
+
+  &__slider_active{
+    position: relative;
+    top: 300px;
+    opacity: 0;
   }
 
   &__slides-wrap{
