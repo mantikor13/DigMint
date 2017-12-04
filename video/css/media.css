@@ -1,0 +1,122 @@
+@media (max-width: 1199px) {
+  .main__head-list {
+    padding-top: 156px; }
+  .main__item {
+    font-size: 60px; }
+
+  .decision__item {
+    font-size: 24px; } }
+@media (max-width: 1080px) {
+  .main {
+    min-height: 555px; }
+    .main__head-list {
+      padding-top: 115px; } }
+@media (max-width: 991px) {
+  .main {
+    min-height: 481px; }
+    .main__head-list {
+      padding-top: 115px; }
+    .main__item {
+      font-size: 46px; }
+
+  .decision__item {
+    font-size: 23px; }
+
+  .header {
+    min-height: 80px;
+    height: 80px; }
+    .header__left {
+      display: none; }
+    .header__mobile {
+      display: block; }
+    .header__right {
+      display: none; } }
+@media (max-width: 767px) {
+  .decision {
+    display: none; }
+
+  .main {
+    min-height: 335px;
+    padding-top: 0;
+    padding-bottom: 50px;
+    background-image: none; }
+    .main__phrase {
+      text-align: center;
+      margin: auto; }
+    .main__head-list {
+      padding-top: 0;
+      text-align: center; }
+
+  .web {
+    padding-top: 50px;
+    padding-bottom: 50px; }
+    .web__title {
+      font-size: 49px; }
+    .web__btn {
+      margin-bottom: 0;
+      margin-top: 30px; }
+    .web__right {
+      display: none; }
+
+  .contact-form {
+    width: 68%;
+    margin: auto; }
+
+  .marketing__list {
+    width: 100%; }
+  .marketing__img {
+    display: none; }
+  .marketing__title {
+    padding-top: 0;
+    text-align: center; }
+  .marketing__text {
+    text-align: center; }
+  .marketing__line {
+    left: 15px; }
+  .marketing__num {
+    left: 6px; }
+
+  .media-prod__title {
+    font-size: 49px;
+    padding-bottom: 25px;
+    padding-top: 50px; }
+  .media-prod__text {
+    font-size: 26px; }
+  .media-prod__link {
+    margin: auto;
+    margin-bottom: 15px;
+    float: none; }
+  .media-prod_btn {
+    margin-top: 25px; }
+
+  .accordion__label {
+    font-size: 22px; } }
+@media (max-width: 576px) {
+  .contacts__title {
+    font-size: 14px; }
+  .contacts__text {
+    font-size: 12px; }
+  .contacts__link {
+    font-size: 12px; }
+
+  .decision__img, .decision__line {
+    display: none; }
+
+  .marketing__title, .media-prod__title, .web__title {
+    font-size: 40px; }
+  .marketing__text, .media-prod__text, .web__text {
+    font-size: 14px; }
+
+  .web__btn {
+    font-size: 12px; }
+
+  .media-prod__title {
+    padding-bottom: 25px; }
+  .media-prod__text {
+    font-size: 14px; }
+  .media-prod__link, .media-prod__btn {
+    font-size: 12px; }
+  .media-prod__link {
+    min-width: 200px; } }
+
+/*# sourceMappingURL=media.css.map */
