@@ -326,7 +326,7 @@ h2{
   cursor: pointer;
 }
 .nav-btn-active .nav-line{
-  background-color: black;
+  background-color: #EEF2F5;
 }
 .nav-btn-active .nav-line{
 
@@ -357,10 +357,10 @@ h2{
   right: -1000px;
   top: 0;
 
-  width: 265px;
+  width: 50%;
   height: 245px;
 
-  background-color: #E8E8E8;
+  background-color: #2FC1DF;
 
   transition: all 0.5s ease-out;
 }
@@ -379,11 +379,15 @@ h2{
   left: -100%;
   width: 300%;
   height: 1px;
-  border: 0.5px solid black;
+  border: 0.5px solid #EEF2F5;
 }
 
 .nav__item-btn{
   margin-top: 60px;
+}
+
+.nav__link{
+  color: #EEF2F5;
 }
 
 .nav__link-lang{
@@ -972,6 +976,15 @@ section{
     max-width: 100%;
     font-size: 18px;
   }
+
+  .web__control{
+    width: 80%;
+  }
+
+  .web__view{
+    display: none;
+  }
+
 
   .port__controls{
     width: 35%;

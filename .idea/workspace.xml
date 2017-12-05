@@ -2,189 +2,118 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2d04a9d-5719-4b2a-8556-e0a391c45e98" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/md-pd/vid1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/md-pd/vid3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jquery-3.1.0.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jquery.magnific-popup.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jquery.vide.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/css/bootstrap.min.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/css/demo.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/css/font-awesome/_animated.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/css/font-awesome/_bordered-pulled.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/css/font-awesome/_core.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/css/font-awesome/_fixed-width.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/css/font-awesome/_icons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/css/font-awesome/_larger.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/css/font-awesome/_list.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/css/font-awesome/_mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/css/font-awesome/_path.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/css/font-awesome/_rotated-flipped.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/css/font-awesome/_screen-reader.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/css/font-awesome/_stacked.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/css/font-awesome/_variables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/css/font-awesome/font-awesome.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/css/font-awesome/font-awesome.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/css/font-awesome/font-awesome.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/css/fonts.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/css/fonts.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/css/fonts.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/css/magnific-popup.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/css/media.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/css/media.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/css/media.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/css/pgwslider.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/css/pushy.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/css/style.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/css/style.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/css/test.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/css/theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/css/theme.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/css/theme.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/en/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/fonts/HelveticaLight/HelveticaLight.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/fonts/HelveticaLight/HelveticaLight.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/fonts/HelveticaLight/HelveticaLight.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/fonts/HelveticaNeueCyr-Bold.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/fonts/HelveticaNeueCyr-BoldItalic.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/fonts/HelveticaNeueCyr-Heavy.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/fonts/HelveticaNeueCyr-HeavyItalic.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/fonts/HelveticaNeueCyr-Italic.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/fonts/HelveticaNeueCyr-Light.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/fonts/HelveticaNeueCyr-LightItalic.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/fonts/HelveticaNeueCyr-Medium.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/fonts/HelveticaNeueCyr-Roman.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/fonts/HelveticaNeueCyr-Thin.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/fonts/HelveticaNeueCyr-ThinItalic.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/fonts/HelveticaNeueCyr-UltraLight.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/fonts/HelveticaNeueCyr-UltraLightItalic.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/fonts/HelveticaUltraLight/HelveticaUltraLight.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/fonts/HelveticaUltraLight/HelveticaUltraLight.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/fonts/HelveticaUltraLight/HelveticaUltraLight.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/fonts/MyriadProBold/MyriadProBold.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/fonts/MyriadProBold/MyriadProBold.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/fonts/MyriadProBold/MyriadProBold.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/fonts/MyriadProBold/MyriadProBold.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/fonts/MyriadProRegular/MyriadProRegular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/fonts/MyriadProRegular/MyriadProRegular.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/fonts/MyriadProRegular/MyriadProRegular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/fonts/MyriadProRegular/MyriadProRegular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/fonts/NeoSans/Neo Sans Std Ultra  TR.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/fonts/NeoSans/Neo Sans Std Ultra  TR.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/fonts/NeoSans/NeoSansPro-Ultra.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/fonts/awesome/FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/fonts/awesome/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/fonts/awesome/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/fonts/awesome/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/fonts/awesome/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/fonts/awesome/fontawesome-webfont.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/1.1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/13-layers.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/2.2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/3.3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/4.4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/Group 1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/Mac.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/Map.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/classroom.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/close.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/cup.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/device.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/fav.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/iPhone.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/jpeg-home.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/main-img.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/marketing.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/media.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/menu.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/menu2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/menuIcon/01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/menuIcon/02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/menuIcon/03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/menuIcon/04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/menuIcon/05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/menuIcon/06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/menuIcon/07.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/menuIcon/08.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/menuIcon/09.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/menuIcon/10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/menuIcon/11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/menuIcon/12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/menuIcon/13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/menuIcon/14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/menuIcon/15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/menuIcon/16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/menuIcon/17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/menuIcon/18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/menuIcon/19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/menuIcon/20.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/menuIcon/21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/menuIcon/22.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/menuWhite.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/modal-form__exit.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/monitor.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/origin.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/slice-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/slideView/01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/slideView/02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/slideView/03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/slideView/04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/slideView/05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/slideView/06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/slideView/07.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/slideView/08.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/slideView/09.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/slideView/10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/slideView/11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/slideView/12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/slideView/13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/slideView/14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/slideView/15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/slideView/16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/slideView/17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/slideView/18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/slideView/19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/slideView/20.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/slideView/21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/slideView/22.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/sliderBottomArrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/img/sliderTopArrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/js/common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/js/jquery-3.1.0.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/js/jquery.magnific-popup.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/js/jquery.vide.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/js/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/js/pgwslider.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/js/pushy.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/mail.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/production.mp4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/production.ogv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/production.webm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/ru/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/video/production.mp4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/video/production.ogv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/video/production.webm" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/ledingWeb.png" afterPath="$PROJECT_DIR$/img/ledingWeb.png" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/1.1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/123/01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/123/02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/123/03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/123/04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/123/05.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/123/06.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/123/07.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/123/08.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/123/09.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/123/10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/123/11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/123/12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/123/13.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/123/14.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/123/15.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/123/16.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/123/17.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/123/18.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/123/19.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/123/20.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/123/21.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/123/22.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/13-layers.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/2.2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/3.3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/4.4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Group 1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Mac.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Map.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/cup.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/device.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/iPhone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/jpeg-home.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/main-img.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/mark-bgi.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/marketing.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/md-pd-play.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/media.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/menu.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/menu2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/menuIcon/01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/menuIcon/02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/menuIcon/03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/menuIcon/04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/menuIcon/05.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/menuIcon/06.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/menuIcon/07.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/menuIcon/08.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/menuIcon/09.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/menuIcon/10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/menuIcon/11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/menuIcon/12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/menuIcon/13.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/menuIcon/14.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/menuIcon/15.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/menuIcon/16.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/menuIcon/17.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/menuIcon/18.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/menuIcon/19.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/menuIcon/20.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/menuIcon/21.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/menuIcon/22.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/menuWhite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/monitor.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/origin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/slice-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/slideView/01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/slideView/02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/slideView/03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/slideView/04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/slideView/05.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/slideView/06.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/slideView/07.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/slideView/08.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/slideView/09.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/slideView/10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/slideView/11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/slideView/12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/slideView/13.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/slideView/14.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/slideView/15.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/slideView/16.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/slideView/17.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/slideView/18.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/slideView/19.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/slideView/20.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/slideView/21.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/slideView/22.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/headerPhotoSlide/imac.png" afterPath="$PROJECT_DIR$/img/headerPhotoSlide/imac.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/headerPhotoSlide/lgImg.png" afterPath="$PROJECT_DIR$/img/headerPhotoSlide/lgImg.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/headerPhotoSlide/mdImg.png" afterPath="$PROJECT_DIR$/img/headerPhotoSlide/mdImg.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/headerPhotoSlide/smImg.png" afterPath="$PROJECT_DIR$/img/headerPhotoSlide/smImg.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/mark1.png" afterPath="$PROJECT_DIR$/img/mark1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/mark2.png" afterPath="$PROJECT_DIR$/img/mark2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/mark3.png" afterPath="$PROJECT_DIR$/img/mark3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/md-pd-bgi.png" afterPath="$PROJECT_DIR$/img/md-pd-bgi.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/md-pd/vid1.jpg" afterPath="$PROJECT_DIR$/img/md-pd/vid1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/md-pd/vid2.png" afterPath="$PROJECT_DIR$/img/md-pd/vid2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/md-pd/vid3.jpg" afterPath="$PROJECT_DIR$/img/md-pd/vid3.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/md-pd/vid4.png" afterPath="$PROJECT_DIR$/img/md-pd/vid4.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/md-pd/vid5.png" afterPath="$PROJECT_DIR$/img/md-pd/vid5.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/md-pd/vid6.png" afterPath="$PROJECT_DIR$/img/md-pd/vid6.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/md-pd/vid7.png" afterPath="$PROJECT_DIR$/img/md-pd/vid7.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/md-pd/vid8.png" afterPath="$PROJECT_DIR$/img/md-pd/vid8.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/theme.scss" afterPath="$PROJECT_DIR$/css/theme.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/index.html" afterPath="$PROJECT_DIR$/en/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/common.js" afterPath="$PROJECT_DIR$/js/common.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ru/index.html" afterPath="$PROJECT_DIR$/ru/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -198,8 +127,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/en/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="425" column="0" lean-forward="false" selection-start-line="425" selection-start-column="0" selection-end-line="425" selection-end-column="115" />
+            <state relative-caret-position="-2916">
+              <caret line="135" column="45" lean-forward="false" selection-start-line="135" selection-start-column="45" selection-end-line="135" selection-end-column="62" />
               <folding>
                 <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -207,7 +136,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ru/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="416">
@@ -220,8 +149,8 @@
       <file leaf-file-name="theme.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/theme.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="22">
+              <caret line="674" column="41" lean-forward="false" selection-start-line="674" selection-start-column="32" selection-end-line="674" selection-end-column="41" />
               <folding>
                 <element signature="e#6#108#0" expanded="false" />
               </folding>
@@ -229,11 +158,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1496">
+              <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/common.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1836">
-              <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+            <state relative-caret-position="425">
+              <caret line="273" column="45" lean-forward="false" selection-start-line="273" selection-start-column="4" selection-end-line="273" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -321,10 +260,10 @@
         <option value="$PROJECT_DIR$/css/fonts.scss" />
         <option value="$PROJECT_DIR$/css/style.scss" />
         <option value="$PROJECT_DIR$/js/main.js" />
-        <option value="$PROJECT_DIR$/css/theme.scss" />
         <option value="$PROJECT_DIR$/js/common.js" />
         <option value="$PROJECT_DIR$/en/index.html" />
         <option value="$PROJECT_DIR$/ru/index.html" />
+        <option value="$PROJECT_DIR$/css/theme.scss" />
       </list>
     </option>
   </component>
@@ -338,7 +277,7 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1320" />
@@ -422,6 +361,11 @@
             <path>
               <item name="DigMint" type="b2602c69:ProjectViewProjectNode" />
               <item name="DigMint" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="DigMint" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DigMint" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -575,7 +519,8 @@
       <workItem from="1511356255771" duration="6200000" />
       <workItem from="1511787354111" duration="9979000" />
       <workItem from="1511948037837" duration="58000" />
-      <workItem from="1512391944859" duration="11338000" />
+      <workItem from="1512391944859" duration="12203000" />
+      <workItem from="1512475454734" duration="2732000" />
     </task>
     <task id="LOCAL-00001" summary="begin img slide">
       <created>1509725911591</created>
@@ -595,10 +540,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="224161000" />
+    <option name="totallyTimeSpent" value="227758000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19180088" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -670,13 +615,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/jquery.magnific-popup.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery.magnific-popup.min.js" />
     <entry file="file://$PROJECT_DIR$/css/magnific-popup.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -745,20 +684,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/fonts.css" />
-    <entry file="file://$PROJECT_DIR$/js/jquery.vide.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/jquery-3.1.0.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="22266" lean-forward="false" selection-start-line="3" selection-start-column="22266" selection-end-line="3" selection-end-column="22266" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery.vide.min.js" />
+    <entry file="file://$PROJECT_DIR$/js/jquery-3.1.0.min.js" />
     <entry file="file://$PROJECT_DIR$/css/ma5-menu.min.css" />
     <entry file="file://$PROJECT_DIR$/mail.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -801,13 +728,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/fav.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -841,58 +761,51 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/theme.scss">
+    <entry file="file://$PROJECT_DIR$/video/mail.php" />
+    <entry file="file://$PROJECT_DIR$/video/en/index.html" />
+    <entry file="file://$PROJECT_DIR$/ru/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#108#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="416">
+          <caret line="427" column="115" lean-forward="false" selection-start-line="427" selection-start-column="115" selection-end-line="427" selection-end-column="115" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/common.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1836">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        <state relative-caret-position="425">
+          <caret line="273" column="45" lean-forward="false" selection-start-line="273" selection-start-column="4" selection-end-line="273" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/en/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="425" column="0" lean-forward="false" selection-start-line="425" selection-start-column="0" selection-end-line="425" selection-end-column="115" />
+        <state relative-caret-position="-2916">
+          <caret line="135" column="45" lean-forward="false" selection-start-line="135" selection-start-column="45" selection-end-line="135" selection-end-column="62" />
           <folding>
             <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/video/mail.php">
+    <entry file="file://$PROJECT_DIR$/css/theme.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="22">
+          <caret line="674" column="41" lean-forward="false" selection-start-line="674" selection-start-column="32" selection-end-line="674" selection-end-column="41" />
+          <folding>
+            <element signature="e#6#108#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/video/en/index.html">
+    <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ru/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="427" column="115" lean-forward="false" selection-start-line="427" selection-start-column="115" selection-end-line="427" selection-end-column="115" />
+        <state relative-caret-position="-1496">
+          <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
           <folding />
         </state>
       </provider>
